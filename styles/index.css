@@ -1,0 +1,27 @@
+@tailwind base;
+/*In case that you need to aply some style*/
+
+@tailwind components;
+/*In case that you need to aply some style*/
+
+@tailwind utilities;
+
+/*In case that you need to aply some style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+     background: #100210;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
