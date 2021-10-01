@@ -14,7 +14,7 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
 
     return (
         <div className="bg-black max-w-screen-1xl max-auto">
-            <nav className="bg-gray-800 max-w-screen" style={{ height: '4rem' }}>
+            <nav className="bg-gray-800 max-w-screen" style={{ height: '64px' }}>
                 <div className="p-6 flex items-center justify-between">
                     <input type="text"
                         name="search"
@@ -34,7 +34,7 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
                     </>}
                 </div>
             </nav>
-            <main style={{ minHeight: "calc(100vh - 4rem)" }}>
+            <main style={{ minHeight: "calc(100vh - 64px)" }}>
                 {main}
             </main>
         </div>
