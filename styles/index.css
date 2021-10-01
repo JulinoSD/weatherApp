@@ -32,8 +32,6 @@ a {
     flex-direction: row;
     overflow: hidden;
     margin: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .cardWeather {
@@ -48,5 +46,9 @@ a {
 
 .weatherData {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    font: 400 11px/150% Cantarell, sans-serif;
+    color: #cecece;
+    margin: 2px;
 }

@@ -6,11 +6,12 @@ interface WProps {
   stateCode: string,
   country: string,
   dateTime: string,
+  temp: string,
 }
 
 const Home: NextPage = () => {
   return <Layout
-    main={<div className="Main">
+    main={<div className="Main justify-center items-center">
       <div className="cardWeather">
         <p>Cidade, Estado</p>
         <p>data, hora</p>
