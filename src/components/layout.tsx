@@ -13,7 +13,7 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
     }
 
     return (
-        <div className="bg-gray-900 max-w-screen-1xl max-auto">
+        <div className="bg-black max-w-screen-1xl max-auto">
             <nav className="bg-gray-800 max-w-screen" style={{ height: '4rem' }}>
                 <div className="p-6 flex items-center justify-between">
                     <input type="text"
