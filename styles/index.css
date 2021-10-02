@@ -28,8 +28,6 @@ a {
 
 .Navigation {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #0d200e;
     width: 100vw;
     height: 4rem;
@@ -43,7 +41,7 @@ a {
     margin: 10px;
 }
 
-.cardWeather {
+/* .cardWeather {
     background: #7e0313bb;
     border-radius: 10px;
     display: flex;
@@ -51,7 +49,7 @@ a {
     padding: 5px;
     font: 400 10pt/150% Roboto, sans-serif;
     margin: 10px;
-}
+} */
 
 .weatherData {
     display: flex;
