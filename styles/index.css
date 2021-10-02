@@ -31,6 +31,9 @@ a {
     background: #0d200e;
     width: 100vw;
     height: 4rem;
+    background:red; 
+    justify-content:space-between;
+    align-items:center;
 }
 
 .Main {

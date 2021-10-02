@@ -14,8 +14,8 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
 
     return (
         <div className="max-w-screen-2xl max-auto">
-            <nav className="bg-black max-w-screen" style={{height: '4rem', minWidth: '100vw', background:'red'}}>{/*Navigation className*/} 
-                <div className="p-6 flex items-center justify-between">
+            <nav className="Navigation">{/*Navigation className*/} 
+                <div className="flex items-center justify-between">
                     <input type="text"
                         name="search"
                         id="search"
