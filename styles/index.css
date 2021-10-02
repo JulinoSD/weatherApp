@@ -32,8 +32,13 @@ a {
     width: 100vw;
     height: 4rem;
     background:red; 
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
+}
+.Input {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
 
 .Main {
